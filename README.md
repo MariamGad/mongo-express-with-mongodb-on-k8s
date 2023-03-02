@@ -40,7 +40,7 @@ Minikube cluster running \
 * Check if the service is created on the right pod using `kubectl describe svc mongo-express-service` and `kubectl get pod -o wide`\
 ![image](https://user-images.githubusercontent.com/47721226/222558080-f4b3ff05-c213-4d95-8759-663ab81f99c9.png)
 
-### 7. Validate your work
+### 7. Validation
 * Assign a public IP for the external service `minikube service mongo-express-service`\
 ![image](https://user-images.githubusercontent.com/47721226/222560452-1979e71d-a02b-4cfe-aac0-7a80b156e562.png)
 * Use the assigned IP to access the service\
